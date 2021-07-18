@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">svelte-capacitor-test</string>
+    <string name="title_activity_main">svelte-capacitor-test</string>
+    <string name="package_name">com.sveltekit.capacitor_test</string>
+    <string name="custom_url_scheme">com.sveltekit.capacitor_test</string>
+</resources>

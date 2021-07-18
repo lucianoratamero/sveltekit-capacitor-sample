@@ -1,0 +1,10 @@
+{
+  "appId": "com.sveltekit.capacitor_test",
+  "appName": "svelte-capacitor-test",
+  "webDir": "build",
+  "bundledWebRuntime": false,
+  "server": {
+    "url": "http://10.0.2.2:3000",
+    "cleartext": true
+  }
+}

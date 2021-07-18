@@ -1,0 +1,32 @@
+{
+  "name": "~TODO~",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview",
+    "build:app": "npm run build && npx cap sync",
+    "open:android": "npm run build:app && npx cap open android",
+    "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+    "format": "prettier --write --plugin-search-dir=. ."
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^1.0.0-next.13",
+    "@sveltejs/kit": "next",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-svelte3": "^3.2.0",
+    "prettier": "~2.2.1",
+    "prettier-plugin-svelte": "^2.2.0",
+    "svelte": "^3.34.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@capacitor/android": "^3.1.1",
+    "@capacitor/app": "^1.0.2",
+    "@capacitor/cli": "^3.1.1",
+    "@capacitor/core": "^3.1.1",
+    "@capacitor/filesystem": "^1.0.2",
+    "@capacitor/geolocation": "^1.0.2"
+  }
+}
